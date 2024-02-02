@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ben.css">
+    <title>Calendar Website</title>
+</head>
+<body>
+    <h1>Work Calendar Website</h1>
+   <div id="top-right">
+    <select name="dropdown">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </div>
+    <div id="center">
+        <form action="submit">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="event">Event:</label>
+            <input type="text" id="event" name="event">
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
